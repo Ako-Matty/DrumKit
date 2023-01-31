@@ -1,0 +1,96 @@
+body{
+
+    /* background-color: aqua; */
+    background-image: url(https://png.pngtree.com/background/20211217/original/pngtree-note-music-logo-watercolor-background-picture-image_1589075.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.instructions{
+
+    display: flex;
+    justify-content: space-evenly;
+    color: royalblue;
+    background-color: azure;
+}
+
+
+
+.BoxKeys {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+    padding: 1.5rem 3rem;
+    color: rgb(85, 86, 85);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 250px;
+
+
+}
+
+
+.Boxes:focus {
+    outline: none
+
+
+
+}
+
+
+.Boxes:active {
+    box-shadow: 0 0 10px; 
+
+
+}
+
+
+#RedClickBox{
+
+    background-color: red;
+    width: 300px;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+#GreenClickBox {
+
+    background-color: green;
+    width: 200px;
+    border-radius: 10%;
+    cursor: pointer;
+
+}
+
+#BlueClickBox {
+
+    background-color: blue;
+    width: 200px;
+    border-radius: 10%;
+    cursor: pointer;
+
+}
+
+#YellowClickBox {
+    background-color: yellow;
+    border-radius: 10%;
+    cursor: pointer;
+
+}
+
+#OrangeClickBox {
+    background-color: orange;
+    border-radius: 10%;
+    cursor: pointer;
+
+}
+
+#BlackClickBox {
+    background-color: black;
+    border-radius: 10%;
+    cursor: pointer;
+
+}
